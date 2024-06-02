@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_add_expense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Expense" />
+
+    <Button
+        android:id="@+id/btn_add_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Income"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv_total_expense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Expense: $0.00"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv_total_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Income: $0.00"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expenses"
+        android:textSize="20sp"
+        android:paddingTop="16dp" />
+
+    <ListView
+        android:id="@+id/lv_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Income"
+        android:textSize="20sp"
+        android:paddingTop="16dp" />
+
+    <ListView
+        android:id="@+id/lv_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
